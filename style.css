@@ -74,7 +74,7 @@
 }
 .mainpage{
     position: relative; 
-    background-image: url(/images/backstage3.jpg);
+    background-image: url(../images/backstage3.jpg);
     width: 100%;
     height: 70vh;
     background-repeat: no-repeat;
