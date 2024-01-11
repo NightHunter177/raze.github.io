@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                                        /* 1 LIST */
+.headerpage{
+    width: auto;
+    background-color: rgb(156, 158, 163);
+    height: 6vh;
+    filter: blur(no-repeat);
+}
+.textpage{
+    display: flex;
+    position: absolute;
+    top: 3vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+.phone{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-left: 0.2vh solid black;
+    border-right: 0.2vh solid black;
+    font-weight: 600;
+}
+.mail{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-left: 0.2vh solid black;
+    border-right: 0.2vh solid black;
+    font-weight: 600;
+}
+.work{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-left: 0.2vh solid black;
+    border-right: 0.2vh solid black;
+    font-weight: 600;
+}
+.addres{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-left: 0.2vh solid black;
+    border-right: 0.2vh solid black;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.addres:hover{
+    text-decoration: underline 0.2vh;
+    color: black;
+}
+.headernew{
+    display: flex;
+}
+.logo{
+    margin-left: 55vh;
+    width: 30vh;
+}
+.text-decoration{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    font-weight: 600;
+    padding-left: 4vh;
+    top: 2.5vh;
+    position: relative;
+}
+.hover:hover{
+    color: rgb(99, 98, 98);
+    text-decoration: underline 0.2vh;
+}
+.mainpage{
+    position: relative; 
+    background-image: url(/images/backstage3.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.oppacity{
+    position: absolute;
+    background-color: black;
+    opacity: 60%;
+    width: 90vh;
+    height: 55vh;
+    margin-left: 17vh;
+}
+.text-about{
+    font-weight: 700;
+    font-size: 5.5vh;
+    margin-left: 25vh;
+    margin-top: 5vh;
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+.line{
+    border-bottom: 0.5vh solid white;
+    position: absolute;
+    top: 20vh;
+    width: 20vh;
+    margin-left: 25vh;
+}
+.text-more-redact{
+    position: absolute;
+    margin-left: 25vh;
+    margin-top: 23vh;
+}
+.text-more{
+    margin-bottom: 1vh;
+    font-weight: 700;
+    font-size: 3.5vh;
+    color: white;
+}
+.landingpage-about{
+    margin-left: 35vh;
+    padding-top: 5vh;
+    font-size: 2vh;
+    width: 150vh;
+    z-index: 2;
+}
+.landingtext-about{
+    padding-top: 2vh;
+}
+.flex-box{
+    display: flex;
+}
+.advantages{
+    padding-top: 5vh;
+}
+.box{
+    background-color: rgb(31, 31, 31);
+    opacity: 80%;
+    margin-top: 5vh;
+    width: 40vh;
+    margin-left: 8vh;
+    height: 20vh;
+    text-align: center;
+}
+.advantages1{
+    font-size: 2vh;
+    font-weight: 600;
+    padding: 3vh;
+    color: rgb(206, 205, 205);
+}
+.feedback{
+    padding-top: 15vh;
+    margin-left: 35vh;
+    font-size: 3vh;
+    height: 80vh;
+}
+.feedback-phone{
+    position: absolute;
+    margin-top: 2vh;
+    font-size: 4vh;
+}
+.feedback-addres{
+    position: absolute;
+    margin-top: 8vh;
+    width: 50vh;
+    font-size: 2vh;
+}
+.box-input {
+    margin-top: 15vh;
+    display: grid;
+    max-width: 30vh;
+}
+.maill{
+    width: 43vh;
+    border: 0.3vh solid black;
+    font-size: 2vh;
+    color: black;
+    height: 3vh;
+    margin-bottom: 9vh;
+}
+.name{
+    margin-top: 6vh;
+    position: absolute;
+    width: 20vh;
+    border: 0.3vh solid black;
+    font-size: 2vh;
+    color: black;
+    height: 3vh;
+    margin-bottom: 3vh;
+}
+.phonenumber{
+    margin-top: 6vh;
+    margin-left: 23vh;
+    position: absolute;
+    width: 20vh;
+    border: 0.3vh solid black;
+    font-size: 2vh;
+    color: black;
+    height: 3vh;
+    margin-bottom: 3vh;
+}
+.input{
+    border: 0.3vh solid black;
+    font-size: 2vh;
+    color: black;
+    width: 20vh;
+    height: 3vh;
+    margin-bottom: 3vh;
+}
+.message{
+    width: 50vh;
+    border: 0.3vh solid black;
+    font-size: 2vh;
+    color: black;
+}
+.btn{
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-left: 34vh;
+    background-color: white;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.messager{
+    position: absolute;
+    width: 20vh;
+    margin-left: 55vh;
+    margin-top: 5vh;
+}
+.footer-page{
+    background-color: rgb(156, 158, 163);
+    width: auto;
+    height: 5vh;
+    text-align: center;
+}
+.prava{ 
+    padding-top: 2vh;
+}
